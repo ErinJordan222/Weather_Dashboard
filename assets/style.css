@@ -1,0 +1,62 @@
+body {
+    background-image: url('../images/weather_background.jpg');
+    font-family: 'Open Sans' sans-serif;
+}
+
+header {
+    color: white;
+    margin: 20px;
+}
+
+.container {
+    color: rgb(249, 66, 167);
+}
+
+.section-title {
+    padding-bottom: 15px;
+    font-size: 50px;
+}
+
+.search {
+    margin: 10px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.forecast-header {
+    margin: 10px;
+}
+
+#forecast-cards {
+    justify-content: space-around;
+    color: white;
+    font-weight: bold;
+}
+
+.card-content {
+    margin: 30px;
+}
+
+.current-weather, .weather-input {
+    margin: 5px;
+    font-weight: bold;
+}
+
+.weather-container {
+    margin: 150px auto;
+    background-color:rgb(254, 254, 254);
+    padding: 50px 50px;
+    border-radius: 10px;
+    opacity: 80%;
+}
+
+.card {
+    background-color: rgb(249, 66, 167);
+}
+
+.btn {
+    background-color:rgb(255, 255, 255);
+    font-weight: bold;
+}

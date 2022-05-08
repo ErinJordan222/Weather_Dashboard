@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/open-iconic/1.1.1/font/css/open-iconic-bootstrap.min.css" />
+    <link rel="stylesheet" href="./assets/style.css" />
+    <title>Weather Dashboard</title>
+  </head>
+
+  <body>
+
+    <header class="container-fluid text-center weather header">
+        <h1>Weather Dashboard</h1>
+    </header>
+
+    <div class="weather-container container">
+        <div class="row">
+            <div class="col-4">
+                <div class="card bg-light">
+                    <h3 class="search">Enter City Here</h3>
+                    <form id="user-form" class="card-body">
+                    <label class="form-label" for="city"></label>
+                    <input name="city-input" size="30" id="city-input" type="text" autofocus="true" class="form-input" />
+                    <button type="submit" class="btn btn-md">Search</button>
+                    </form>
+                    <ul class="list-group" id="search-container"></ul>
+                </div>
+            </div>
+
+            <div class="col-8">
+                <div class="card bg-white">
+                <div class="current-weather">
+                    <h2 class="subtitle"><span id="city-search-term">Search City</span>
+                    <span id="city-current-date"></span>
+                </h2>
+                    <div id="city-container" class="list-group"></div>
+                </div>
+
+                <div class="weather-input">
+                    <p class="temp">Temperature: 
+                    <span id="temp-input"></span>
+                    </p>
+                    <p class="humidity">Humidity: 
+                    <span id="humidity-input"></span>
+                    </p>
+                    <p class="wind">Wind mph: 
+                    <span id="wind-input"></span>
+                    </p>
+
+                </div>
+            </div>
+
+            <div class="row">
+                <h3 class="forecast-header">5 Day Forecast</h3>
+            </div>
+            <div class="row" id="forecast-cards">
+                <div class="card col-2" id="day-1">
+                    <p class="card-1" id="date-0">Date</p>
+                    <p class="card-1" id="temp-1">Temp: </p>
+                    <p class="card-1" id="humidity-1">Humidity: </p>
+                </div>
+
+                <div class="card col-2" id="day-2">
+                    <p class="card-2" id="date-1">Date</p>
+                    <p class="card-2" id="temp-2">Temp: </p>
+                    <p class="card-2" id="humidity-2">Humidity: </p>
+                </div>
+
+                <div class="card col-2" id="day-3">
+                    <p class="card-3" id="date-2">Date</p>
+                    <p class="card-3" id="temp-3">Temp: </p>
+                    <p class="card-3" id="humidity-3">Humidity: </p>
+                </div>
+
+                <div class="card col-2" id="day-4">
+                    <p class="card-4" id="date-3">Date</p>
+                    <p class="card-4" id="temp-4">Temp: </p>
+                    <p class="card-4" id="humidity-4">Humidity: </p>
+                </div>
+
+                <div class="card col-2" id="day-5">
+                    <p class="card-5" id="date-4">Date</p>
+                    <p class="card-5" id="temp-5">Temp: </p>
+                    <p class="card-5" id="humidity-5">Humidity: </p>
+                </div>
+
+            </div>
+
+        </div>
+
+<script src="./assets/script.js"></script>
+  </body>
+
+  </html>
