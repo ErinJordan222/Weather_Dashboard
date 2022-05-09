@@ -1,15 +1,16 @@
 body {
     background-image: url('../images/weather_background.jpg');
     font-family: 'Open Sans' sans-serif;
+    margin: 0;
 }
 
 header {
     color: white;
-    margin: 20px;
 }
 
 .container {
     color: rgb(249, 66, 167);
+    padding: 3px;
 }
 
 .section-title {
@@ -45,7 +46,7 @@ ul {
 }
 
 .weather-container {
-    margin: 150px auto;
+    margin: 30px auto;
     background-color:rgb(254, 254, 254);
     padding: 50px 50px;
     border-radius: 10px;
