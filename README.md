@@ -21,7 +21,7 @@ Erin Jordan's Weather Dashboard Week 6 Project for Denver Univirsity Coding Boot
 * CSS
 * Javascript
 * API
-* 
+
 ## Instructions
 * In the search bar: Search City Here... search for a city :)
 * Click the Search button.
