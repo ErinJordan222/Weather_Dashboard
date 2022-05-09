@@ -32,7 +32,7 @@ ul {
 #forecast-cards {
     justify-content: space-around;
     color: white;
-    font-weight: bold;
+    /* font-weight: bold; */
 }
 
 .card-content {
@@ -57,6 +57,6 @@ ul {
 }
 
 .btn {
-    background-color:rgb(255, 255, 255);
+    background-color:rgb(254, 254, 254);
     font-weight: bold;
 }
