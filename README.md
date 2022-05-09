@@ -1,9 +1,9 @@
-# Weather Dashboard
+# Weather Dashboard --- Pocket Full of Sunshine 
 
 ## Description
 Erin Jordan's Weather Dashboard Week 6 Project for Denver Univirsity Coding Bootcamp
 
-* 
+* https://erinjordan222.github.io/Weather_Dashboard/
 
 ## Table of Contents
 * [Contact](#Contact)
