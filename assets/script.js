@@ -57,13 +57,13 @@ var getCityWeather = function(city) {
     // })
 };
 
-var searchCityUV = function(lon, lat, city) {
+var searchCityUv = function(lon, lat, city) {
     var uvUrl = "https://api.openweathermap.org/data/2.5/uvi?q=" + city + "&appid=" + key + "&lat=" + lat + "&lon=" + lon; 
 
     fetch(uvUrl).then(function(response) {
         if (response.ok) {
-            reponse.json().then(function(lon, lat, city) {
-                displayCurrentUV(lon, lat, city);
+            response.json().then(function(lon, lat, city) {
+                displayCurrentUv(lon, lat, city);
             });
         } else {
             alert('Error:' + response.statusText);
@@ -108,10 +108,10 @@ var displayCityWeather = function(city, searchTerm) {
     var lon = city.coord.lon;
     var lat = city.coord.lat;
 
-    searchCityUV(lon, lat, city);
+    searchCityUv(lon, lat, city);
 };
 
-var displayCurrentUV = function(data) {
+var displayCurrentUv = function(data) {
     var uv = data.value;
     if (uv >= 6) {
         currentUvEl.classList = 'badge badge-danger'
