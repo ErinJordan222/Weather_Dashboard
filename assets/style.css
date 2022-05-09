@@ -46,9 +46,9 @@ ul {
 }
 
 .weather-container {
-    margin: 30px auto;
+    margin: 10px auto;
     background-color:rgb(254, 254, 254);
-    padding: 50px 50px;
+    padding: 40px 40px;
     border-radius: 10px;
     opacity: 80%;
 }
