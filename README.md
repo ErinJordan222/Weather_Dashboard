@@ -33,5 +33,5 @@ Erin Jordan's Weather Dashboard Week 6 Project for Denver Univirsity Coding Boot
 ![week6screenshot](https://user-images.githubusercontent.com/92272866/168210919-72ac63bf-05ce-4a08-a798-097240687b8a.png)
 
 
+https://user-images.githubusercontent.com/92272866/168394420-d41db7de-13c6-4c30-b44d-5b643c158811.mp4
 
-https://user-images.githubusercontent.com/92272866/167441445-7c79b21f-c841-4313-b440-f522c25f8da8.mp4
