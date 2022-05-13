@@ -27,11 +27,11 @@ Erin Jordan's Weather Dashboard Week 6 Project for Denver Univirsity Coding Boot
 * Click the Search button.
 * View current weather as well as 5 day forecast.
 * Enjoy!
-* 
+
+
 ## Screenshot/Video
 
-![Screenshot (263)](https://user-images.githubusercontent.com/92272866/167441150-45d1ee4c-ef69-4464-9469-2ea9c42ffabf.png)
-![Screenshot (264)](https://user-images.githubusercontent.com/92272866/167441164-db392966-4f71-450a-af12-5721667593b5.png)
+![week6screenshot](https://user-images.githubusercontent.com/92272866/168211423-4f2850e9-87e2-4505-8732-4775b5a78b5a.png)
 
 https://user-images.githubusercontent.com/92272866/168211303-1276a812-a4f7-48eb-814f-41a193ce3c59.mp4
 
