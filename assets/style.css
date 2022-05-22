@@ -8,27 +8,40 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
 
 body {
-    background-image: url('../images/weather_background.jpg');
-    font-family: 'Open Sans' sans-serif;
+    background-image: url('../images/weather_background2.jpg');
+    font-family: 'Oleo Script Swash Caps', serif;
+    
+ 
     /* margin: 0;
     display: flex grid; */
 }
 
 header {
     color: white;
+    
 }
 
 .container {
-    color: rgb(249, 66, 167);
+    color: rgb(249, 66, 136);
     padding: 3px;
     
+}
+
+#question {
+    font-weight: bold;
+    width: 60%;
+    text-align: left;
+    margin-top: 25px;
+    margin-left: 20%;
+    font-size: 40px;
+    color: rgb(249, 66, 136);
 }
 
 
 .section-title {
     padding-bottom: 15px;
     font-size: 50px;
-}
+} 
 
 
 .search {
@@ -59,11 +72,12 @@ ul {
 }
 
 .current-weather, .weather-input {
-    margin: 5px;
+    margin: 0px;
     /* font-weight: bold; */
 }
 
 .weather-container {
+    margin-top: 5px;
     margin: 10px auto;
     background-color:rgb(254, 254, 254);
     padding: 40px 40px;
@@ -72,7 +86,8 @@ ul {
 }
 
 .card {
-    background-color: rgb(249, 66, 167);
+    background-color:  rgb(249, 66, 136);
+    /* background-color: rgb(249, 66, 167); */
 }
 
 .btn {
@@ -81,7 +96,7 @@ ul {
     
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 500px) {
     textarea {
       width: 65vw;
     }
