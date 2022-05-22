@@ -96,8 +96,8 @@ ul {
     
 }
 
-@media only screen and (max-width: 500px) {
-    textarea {
+@media only screen and (max-width: 600px) {
+    body {
       width: 65vw;
     }
   
