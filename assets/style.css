@@ -1,9 +1,9 @@
 
 * {
-    box-sizing: flex;
+    box-sizing: border-box;
     padding: 0;
     margin: 0;
-} 
+}
 
 @import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
 
@@ -97,8 +97,8 @@ ul {
 }
 
 @media only screen and (max-width: 600px) {
-    body {
-      width: 50%;
+    textarea {
+      width: 65vw;
     }
   
   }
